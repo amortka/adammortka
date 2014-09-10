@@ -1,0 +1,98 @@
+@media (max-width: 767px) {
+   #media-step-4 { display: block; }
+   
+    #teaser h1 {
+        font-size: 36px;
+    }
+    
+    #teaser figure {
+       margin-bottom: 10px;   
+    }
+    
+    #teaser figure img {
+        -webkit-border-radius: 130px;
+        -moz-border-radius: 130px;
+        border-radius: 130px; 
+        width: 130px;
+        height: 130px;
+        border-width: 5px;
+    }
+    
+    #teaser h1:before {
+        left: -20px;
+        top: 36px;
+    }
+
+    #teaser h1:after {
+        right: -20px;
+        top: 36px;
+    }
+
+    footer main #wrapper-bottom ul {
+        display: none;
+    }
+}
+@media (min-width: 0px) and (max-width: 991px) {
+    #media-step-3 { display: block; }
+
+    article {
+        padding: 40px 10%;
+    }
+    #nav-head {
+        display: none;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+    
+        width: 100%;
+}
+    nav ul li {
+        display: block;
+        width: 100%;
+        background: #3498db;        
+    }    
+    body.fixed nav {
+        right: 0;
+        top: 0;
+    }
+    nav ul li a {
+        width: 80%;
+        margin: 0 auto;        
+        line-height: 20px;
+        font-size: 20px;
+        padding: 10px 10px;
+        text-align: center;
+    }
+    body.fixed nav ul li:first-of-type a {
+        -webkit-border-top-left-radius: 0;
+        -webkit-border-top-right-radius: 0;
+        -moz-border-radius-topleft: 0;
+        -moz-border-radius-topright: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;   
+    }
+    nav ul li:last-of-type a {
+        -webkit-border-bottom-right-radius: 0;
+        -webkit-border-bottom-left-radius: 0;
+        -moz-border-radius-bottomright: 0;
+        -moz-border-radius-bottomleft: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0; 
+    }
+    nav a#menu-button {
+        display: block;
+    }
+    nav ul {
+        display: none;
+    }
+    
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #media-step-2 { display: block; }
+}
+
+@media (min-width: 1200px) {
+    #media-step-1 { display: block; }
+}
